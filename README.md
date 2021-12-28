@@ -13,5 +13,5 @@
 - Estrutura de dados
   - Array List
   - Árvore
-  >## Usabilidade da aplicação:
+>## Usabilidade da aplicação:
   
