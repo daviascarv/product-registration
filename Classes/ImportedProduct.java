@@ -1,5 +1,9 @@
 package Products.Classes;
 
-public class ImportedProduct {
+public class ImportedProduct extends Products{
+    private Double customsFee;
+
+
+    
     
 }
