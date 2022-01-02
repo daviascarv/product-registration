@@ -20,6 +20,7 @@ public class ImportedProduct extends Products{
     public double totalPrice(){
         return getPrice() + customsFee;
     }
+    @Override
     public String priceTag(){
         return getName()
 

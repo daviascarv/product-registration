@@ -1,6 +1,6 @@
 package Products.Classes;
 
-public class Products {
+    public class Products {
     private String name;
     private Double price;
 
