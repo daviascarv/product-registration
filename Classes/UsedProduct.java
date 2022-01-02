@@ -1,5 +1,7 @@
 package Products.Classes;
 
-public class UsedProduct {
+public class UsedProduct extends Products{
+
+    
     
 }
