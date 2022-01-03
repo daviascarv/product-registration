@@ -28,6 +28,6 @@ package Products.Classes;
         return name
 
                     +"$"
-                    +price;
+                    +String.format(format, args);
     }
 }
