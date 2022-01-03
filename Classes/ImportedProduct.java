@@ -25,7 +25,8 @@ public class ImportedProduct extends Products{
         return getName()
 
                     +"(imported)"
-                    +"$";
+                    +"$"
+                    +String.format("%.2f", totalPrice());
     }
 
     
