@@ -48,6 +48,8 @@ public class Main{
         sc.close();
         System.out.println("");
         System.out.print("PRICE TAGS !!");
-        for()
+        for(Products product : list){
+            System.out.println(product.priceTag());
+        }
     }
 }
