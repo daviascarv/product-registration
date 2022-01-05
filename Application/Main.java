@@ -25,7 +25,7 @@ public class Main{
         for(int i = 1; i <= n; i++){
             System.out.println("Prduct #"+i+" data");
             System.out.print("Common, used or import(c/u/i)?");
-            char x = sc.nextLine().charAt(0);
+            char x = sc.next().charAt(0);
 
             System.out.print("Name: ");
             sc.nextLine();
@@ -44,7 +44,10 @@ public class Main{
             }else if(x == 'c'){
                 list.add(new Products(name, price));
         }
+    }
         sc.close();
-        }
+        System.out.println("");
+        System.out.print("PRICE TAGS !!");
+        for()
     }
 }
